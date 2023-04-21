@@ -1,0 +1,34 @@
+.bannertext {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-size: 136px;
+  line-height: 125px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.5) 6.44%,
+    var(--white-1) 95.08%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  max-width: 724px;
+  padding-top: 70px;
+}
+
+@media (max-width: 767px) {
+  .bannerimg {
+    height: 480px;
+    object-fit: cover;
+  }
+  .bannertext {
+    font-size: 77px;
+    line-height: 95px;
+  }
+}
+@media (min-width:767px)and (max-width: 1289px){
+  .bannertext {
+    font-size: 80px;
+    line-height: 100px;
+  }
+}

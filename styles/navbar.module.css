@@ -1,0 +1,27 @@
+.navbarmain{
+    position: absolute;
+    height: 80px;
+    top: 24px;
+    width: 100%;
+    background: var(--white-1);
+    border-radius: 12px;
+    z-index: 99;
+    
+}
+.navbarbtn{
+    background: var(--green-1);
+    border-radius: 8px;
+    padding: 9px 24px 11px;
+    font-family: 'Greycliff-CF';
+    font-weight: 700;
+}
+
+
+
+
+@media (min-width:300px)and (max-width: 767px){
+    .navbarmain{
+        top: 0;
+        border-radius: 0;
+    }
+}

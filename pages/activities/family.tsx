@@ -46,14 +46,14 @@ const Family = () => {
       >
         <h1 className={styles.bannertext}>Family</h1>
       </div>
-      <div className="container mx-auto py-6">
-        <h4 className="text- mt-5 ">
+      <div className="container mx-auto py-6 px-4">
+        <h4 className="text- mt-5">
           <Link href="/">Home </Link>
           <span>
             {<MdKeyboardArrowRight style={{ display: "inline" }} />} Family
           </span>
         </h4>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 py-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 py-5 gap-10">
           {apidata?.filter((categ:any) => {
                 return categ.name === "Family";
               })
@@ -65,13 +65,13 @@ const Family = () => {
                         <div key={index}>
                           <div
                             className="card m-2 cursor-pointer border border-gray-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200"
-                            style={{ height: "305px" }}
+                            style={{ height: "auto" }}
                           >
                             <div className="m-3">
                               <Image
                                 src={Banner}
                                 alt="banner"
-                                className={styles.bannerimg}
+                                style={{ height: "100%" }}
                               />
                               {/* <h3 className="text-lg py-2">{item.name}</h3> */}
                               <p className="font-light font-mono text-sm text-gray-700 hover:text-gray-900 transition-all duration-200 pt-3">

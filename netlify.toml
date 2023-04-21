@@ -1,4 +1,10 @@
+
+[[build]]
+command="npm run build && npm run export"
+publish = "out"
+
+
 [[redirects]]
 form ="/*"
-to="/index.tsx"
-status=200
+to="/404"
+status=404

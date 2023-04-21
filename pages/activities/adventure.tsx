@@ -45,7 +45,7 @@ const Adventure = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1 className={styles.bannertext}>Adventure</h1>
+        <h1 className={styles.acti_haeding}>Adventure</h1>
       </div>
       <div className="container mx-auto py-6 px-4">
         <h4 className="text- mt-5">

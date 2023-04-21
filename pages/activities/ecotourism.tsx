@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
-import styles from "../../styles/home.module.css";
+import styles from "../../styles/activities.module.css";
 import Image from "next/image";
 import Banner from "../../public/waves.jpg";
 import Link from "next/link";
@@ -44,7 +44,7 @@ const Ecotourism = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1 className={styles.bannertext}>Eco-tourism</h1>
+        <h1 className={styles.acti_haeding}>Eco-tourism</h1>
       </div>
       <div className="container mx-auto py-6 px-4">
         <h4 className="text- mt-5">
